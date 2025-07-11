@@ -6,7 +6,11 @@ for (const _ of args) {
 if (count === 0) {
     console.log("No argument");
 }
-else {
+else if (count === 1) {
     console.log("one argument");
-    console.log("HBTN");
+    console.log(args[0]);
+}
+else {
+    console.log(count + ' argument: ');
+    console.log(args.join(''));
 }
