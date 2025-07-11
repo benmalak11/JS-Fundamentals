@@ -7,6 +7,6 @@ if (count === 0) {
     console.log("No argument");
 }
 else {
-    console.log("School");
+    console.log("one argument");
     console.log("HBTN");
 }
